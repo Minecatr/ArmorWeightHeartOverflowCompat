@@ -41,7 +41,7 @@ public class WeightHudOverlay {
         // int heartsRows = (int)Math.ceil((Math.max(player.getMaxHealth(), Math.max(lastHealth, displayHealth)) + player.getAbsorptionAmount()) / 20f);
         // int rowHeight = Math.max(10 - (heartsRows - 2), 3);
         int x = screenWidth / 2 - 91;
-        int y = screenHeight - 49 // - (heartsRows - 1) * rowHeight;
+        int y = screenHeight - 49; // - (heartsRows - 1) * rowHeight;
         List<Integer> thresholds = ClientData.getThresholds();
         List<Integer> startIndices = new ArrayList<>(List.of(
                 0,
