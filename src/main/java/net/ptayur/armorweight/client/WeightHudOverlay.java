@@ -28,20 +28,20 @@ public class WeightHudOverlay {
         if (player == null) {
             return;
         }
-        int playerHealth = (int)Math.ceil(player.getHealth());
-        long currentTime = Util.getMillis();
-        if (playerHealth != lastHealth && player.invulnerableTime > 0) {
-            lastHealthTime = currentTime;
-        }
-        if (currentTime - lastHealthTime > 1000L) {
-            displayHealth = playerHealth;
-            lastHealthTime = currentTime;
-        }
-        lastHealth = playerHealth;
-        int heartsRows = (int)Math.ceil((Math.max(player.getMaxHealth(), Math.max(lastHealth, displayHealth)) + player.getAbsorptionAmount()) / 20f);
-        int rowHeight = Math.max(10 - (heartsRows - 2), 3);
+        // int playerHealth = (int)Math.ceil(player.getHealth());
+        // long currentTime = Util.getMillis();
+        // if (playerHealth != lastHealth && player.invulnerableTime > 0) {
+        //     lastHealthTime = currentTime;
+        // }
+        // if (currentTime - lastHealthTime > 1000L) {
+        //     displayHealth = playerHealth;
+        //     lastHealthTime = currentTime;
+        // }
+        // lastHealth = playerHealth;
+        // int heartsRows = (int)Math.ceil((Math.max(player.getMaxHealth(), Math.max(lastHealth, displayHealth)) + player.getAbsorptionAmount()) / 20f);
+        // int rowHeight = Math.max(10 - (heartsRows - 2), 3);
         int x = screenWidth / 2 - 91;
-        int y = screenHeight - 49 - (heartsRows - 1) * rowHeight;
+        int y = screenHeight - 49 // - (heartsRows - 1) * rowHeight;
         List<Integer> thresholds = ClientData.getThresholds();
         List<Integer> startIndices = new ArrayList<>(List.of(
                 0,
