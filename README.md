@@ -1,6 +1,7 @@
 <p>This fork requires health overflow mods like Mantle or Overflowing Bars to function properly</p>
 <p align="center"><img width="604" height="158" alt="image" src="https://github.com/user-attachments/assets/69ba1ba3-86dd-4a0b-b6d6-5129f636a170" /</p>
 
+<p>Original Description:</p>
 <p align="center"><img src="https://i.imgur.com/jUN9Zpk.png" alt="Logo" width=100></p>
 <h1 align="center">ArmorWeight<br>
   <a href="https://www.curseforge.com/minecraft/mc-mods/armorweight/files"><img src="https://cf.way2muchnoise.eu/versions/1059665.svg" alt="Supported Versions"></a>
